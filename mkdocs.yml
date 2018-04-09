@@ -1,0 +1,96 @@
+# Site information
+
+site_name: "Knowledgebase Repository"
+site_author: "Saiprasad Balasubramanian"
+site_description: "Site Description Here"
+site_url: 'https://saiprasad.io'
+edit_uri: ''
+copyright: "© Saiprasad Balasubramanian"
+
+# Theme 
+
+theme:
+  name: material
+  language: 'en'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  palette:
+    primary: 'blue'
+    accent: 'indigo'
+  feature:
+    'tabs': false
+  custom_dir: 'theme'
+
+
+# Repo Details
+repo_url: "https://github.com/backtrackbaba/knowledgebase"
+
+# Extra Configuration for Material Theme
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/backtrackbaba'
+    - type: 'twitter'
+      link: 'https://twitter.com/sai_cosmo'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/saiprasadbala'
+    - type: 'facebook'
+      link: 'https://facebook.com/sai.cosmo'
+    - type: 'terminal'
+      link: 'https://saiprasad.io'
+    - type: 'server'
+      link: 'https://stackoverflow.com/users/8044551/saiprasad-balasubramanian'
+# Markdown Extensions
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      'linenums': 'true'
+      'pygments_style': 'xcode'
+  - pymdownx.emoji:
+      'emoji_generator': !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      'custom_checkbox': true
+  - meta
+
+
+# Google Analytics
+
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
+
+
+# Site Navigation
+
+pages:
+
+- Home: 'index.md'
+
+- devOps:
+    - 'AWS': 'devops/aws.md'
+    - 'Docker': 'devops/docker.md'
+
+- Java:
+    - 'Java': 'java/java.md'
+
+- Machine Learning:
+    - 'ML Algorithms': 'ml/ml-algo.md'
+    - 'Pandas': 'ml/pandas.md'
+    - 'Numpy': 'ml/numpy.md'
+
+- Python:
+  - 'Flask': 'python/flask.md' 
+  - 'Libraries': 'python/python-libraries.md'
+  - 'Mkdocs': 'python/mkdocs.md'
+  - 'Python': 'python/python.md'
+
+- Ruby:
+    - 'Ruby': 'ruby/ruby.md'
+    - 'Dashing': 'ruby/dashing.md'
