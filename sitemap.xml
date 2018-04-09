@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>https://saiprasad.io/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://saiprasad.io/devops/aws/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://saiprasad.io/devops/docker/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://saiprasad.io/java/java/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://saiprasad.io/ml/ml-algo/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://saiprasad.io/ml/pandas/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://saiprasad.io/ml/numpy/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://saiprasad.io/python/flask/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://saiprasad.io/python/python-libraries/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://saiprasad.io/python/mkdocs/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://saiprasad.io/python/python/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://saiprasad.io/ruby/ruby/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://saiprasad.io/ruby/dashing/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+</urlset>

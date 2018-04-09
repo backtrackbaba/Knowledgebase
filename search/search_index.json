@@ -1,0 +1,114 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\n1\n2\n3\n4\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "1\n2\n3\n4 mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/devops/aws/", 
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\nimport\n \njava.util.LinkedList\n;\n\n\nimport\n \njava.lang.reflect.Array\n;\n\n\n\npublic\n \nclass\n \nUnsortedHashSet\nE\n \n{\n\n\n  \nprivate\n \nstatic\n \nfinal\n \ndouble\n \nLOAD_FACTOR_LIMIT\n \n=\n \n0.7\n;\n\n\n  \nprivate\n \nint\n \nsize\n;\n\n  \nprivate\n \nLinkedList\nE\n[]\n \ncon\n;\n\n\n  \npublic\n \nUnsortedHashSet\n()\n \n{\n\n    \ncon\n  \n=\n \n(\nLinkedList\nE\n[])(\nnew\n \nLinkedList\n[\n10\n]);\n\n  \n}\n\n\n  \npublic\n \nboolean\n \nadd\n(\nE\n \nobj\n)\n \n{\n\n    \nint\n \noldSize\n \n=\n \nsize\n;\n\n    \nint\n \nindex\n \n=\n \nMath\n.\nabs\n(\nobj\n.\nhashCode\n())\n \n%\n \ncon\n.\nlength\n;\n\n    \nif\n \n(\ncon\n[\nindex\n]\n \n==\n \nnull\n)\n\n      \ncon\n[\nindex\n]\n \n=\n \nnew\n \nLinkedList\nE\n();\n\n    \nif\n \n(!\ncon\n[\nindex\n].\ncontains\n(\nobj\n))\n \n{\n\n      \ncon\n[\nindex\n].\nadd\n(\nobj\n);\n\n      \nsize\n++;\n\n    \n}\n\n    \nif\n \n(\n1.0\n \n*\n \nsize\n \n/\n \ncon\n.\nlength\n \n \nLOAD_FACTOR_LIMIT\n)\n\n      \nresize\n();\n\n    \nreturn\n \noldSize\n \n!=\n \nsize\n;\n\n  \n}\n\n\n  \nprivate\n \nvoid\n \nresize\n()\n \n{\n\n    \nUnsortedHashSet\nE\n \ntemp\n \n=\n \nnew\n \nUnsortedHashSet\nE\n();\n\n    \ntemp\n.\ncon\n \n=\n \n(\nLinkedList\nE\n[])(\nnew\n \nLinkedList\n[\ncon\n.\nlength\n \n*\n \n2\n \n+\n \n1\n]);\n\n    \nfor\n \n(\nint\n \ni\n \n=\n \n0\n;\n \ni\n \n \ncon\n.\nlength\n;\n \ni\n++)\n \n{\n\n      \nif\n \n(\ncon\n[\ni\n]\n \n!=\n \nnull\n)\n\n        \nfor\n \n(\nE\n \ne\n \n:\n \ncon\n[\ni\n])\n\n          \ntemp\n.\nadd\n(\ne\n);\n\n    \n}\n\n    \ncon\n \n=\n \ntemp\n.\ncon\n;\n\n  \n}\n\n\n  \npublic\n \nint\n \nsize\n()\n \n{\n\n    \nreturn\n \nsize\n;\n\n  \n}\n\n\n}", 
+            "title": "AWS"
+        }, 
+        {
+            "location": "/devops/docker/", 
+            "text": "Docker\n\n\nBasic Commands\n\n\n\n\n\n\ndocker login\n - To login to your DockerHub Account\n\n\ndocker images\n - List all the local Images", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/devops/docker/#docker", 
+            "text": "", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/devops/docker/#basic-commands", 
+            "text": "docker login  - To login to your DockerHub Account  docker images  - List all the local Images", 
+            "title": "Basic Commands"
+        }, 
+        {
+            "location": "/java/java/", 
+            "text": "Java\n\n\npage.title: \"asadasd\"\n\n\nJava Knowledgebase\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nBasics\n\n\n\n\n`` - Compiles the Code\n\n\njava \nfilename\n - Executes the Java File (Do not add .java)\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\n1\n2\n3\n4\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Java"
+        }, 
+        {
+            "location": "/java/java/#java", 
+            "text": "page.title: \"asadasd\"", 
+            "title": "Java"
+        }, 
+        {
+            "location": "/java/java/#java-knowledgebase", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Java Knowledgebase"
+        }, 
+        {
+            "location": "/java/java/#basics", 
+            "text": "`` - Compiles the Code  java  filename  - Executes the Java File (Do not add .java)  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Basics"
+        }, 
+        {
+            "location": "/java/java/#project-layout", 
+            "text": "1\n2\n3\n4 mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/ml/ml-algo/", 
+            "text": "", 
+            "title": "ML Algorithms"
+        }, 
+        {
+            "location": "/ml/pandas/", 
+            "text": "", 
+            "title": "Pandas"
+        }, 
+        {
+            "location": "/ml/numpy/", 
+            "text": "", 
+            "title": "Numpy"
+        }, 
+        {
+            "location": "/python/flask/", 
+            "text": "", 
+            "title": "Flask"
+        }, 
+        {
+            "location": "/python/python-libraries/", 
+            "text": "", 
+            "title": "Libraries"
+        }, 
+        {
+            "location": "/python/mkdocs/", 
+            "text": "", 
+            "title": "Mkdocs"
+        }, 
+        {
+            "location": "/python/python/", 
+            "text": "", 
+            "title": "Python"
+        }, 
+        {
+            "location": "/ruby/ruby/", 
+            "text": "", 
+            "title": "Ruby"
+        }, 
+        {
+            "location": "/ruby/dashing/", 
+            "text": "", 
+            "title": "Dashing"
+        }
+    ]
+}
