@@ -74,7 +74,7 @@ pages:
 
 - Home: 'index.md'
 
-- CMS: 'wordpress.md'
+- CMS: 'cms/wordpress.md'
 
 - devOps:
     - 'AWS': 'devops/aws.md'
