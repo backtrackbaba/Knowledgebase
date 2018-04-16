@@ -3,8 +3,16 @@
 
     
     <url>
-     <loc>https://saiprasad.io/</loc>
-     <lastmod>2018-04-10</lastmod>
+     <loc>/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/cms/wordpress/</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,46 +20,14 @@
     
         
     <url>
-     <loc>https://saiprasad.io/devops/aws/</loc>
-     <lastmod>2018-04-10</lastmod>
+     <loc>/devops/aws/</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://saiprasad.io/devops/docker/</loc>
-     <lastmod>2018-04-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://saiprasad.io/java/java/</loc>
-     <lastmod>2018-04-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://saiprasad.io/ml/ml-algo/</loc>
-     <lastmod>2018-04-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://saiprasad.io/ml/pandas/</loc>
-     <lastmod>2018-04-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://saiprasad.io/ml/numpy/</loc>
-     <lastmod>2018-04-10</lastmod>
+     <loc>/devops/docker/</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -60,26 +36,8 @@
     
         
     <url>
-     <loc>https://saiprasad.io/python/flask/</loc>
-     <lastmod>2018-04-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://saiprasad.io/python/python-libraries/</loc>
-     <lastmod>2018-04-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://saiprasad.io/python/mkdocs/</loc>
-     <lastmod>2018-04-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://saiprasad.io/python/python/</loc>
-     <lastmod>2018-04-10</lastmod>
+     <loc>/java/java/</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -88,14 +46,64 @@
     
         
     <url>
-     <loc>https://saiprasad.io/ruby/ruby/</loc>
-     <lastmod>2018-04-10</lastmod>
+     <loc>/ml/ml-algo/</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://saiprasad.io/ruby/dashing/</loc>
-     <lastmod>2018-04-10</lastmod>
+     <loc>/ml/pandas/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ml/numpy/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/python/flask/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/python/python-libraries/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/python/mkdocs/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/python/python/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/ruby/ruby/</loc>
+     <lastmod>2018-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ruby/dashing/</loc>
+     <lastmod>2018-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
