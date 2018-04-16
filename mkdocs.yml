@@ -3,7 +3,7 @@
 site_name: "Knowledgebase Repository"
 site_author: "Saiprasad Balasubramanian"
 site_description: "Site Description Here"
-site_url: 'https://saiprasad.io'
+#site_url: 'https://saiprasad.io'
 edit_uri: ''
 copyright: "© Saiprasad Balasubramanian"
 
@@ -20,7 +20,8 @@ theme:
     accent: 'indigo'
   feature:
     'tabs': false
-  custom_dir: 'theme'
+  icon: 'code'
+#  custom_dir: 'theme'
 
 
 # Repo Details
@@ -72,6 +73,8 @@ google_analytics:
 pages:
 
 - Home: 'index.md'
+
+- CMS: 'wordpress.md'
 
 - devOps:
     - 'AWS': 'devops/aws.md'

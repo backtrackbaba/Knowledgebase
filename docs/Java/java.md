@@ -6,11 +6,10 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 
 ## Basics
 
-* `` - Compiles the Code
+* `javc "filename.java"` - Compiles the Code
 * `java "filename"` - Executes the Java File (Do not add .java)
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
+* Datatypes
+    
 ## Project layout
 
     mkdocs.yml    # The configuration file.
