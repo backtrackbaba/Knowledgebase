@@ -1,119 +1,379 @@
 {
     "docs": [
         {
-            "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\n1\n2\n3\n4\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "location": "/",
+            "text": "Knowledgebase Homepage",
             "title": "Home"
-        }, 
+        },
         {
-            "location": "/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
-        }, 
+            "location": "/#knowledgebase-homepage",
+            "text": "",
+            "title": "Knowledgebase Homepage"
+        },
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
-        }, 
+            "location": "/database/orm/django-orm/",
+            "text": "",
+            "title": "Django ORM"
+        },
         {
-            "location": "/#project-layout", 
-            "text": "1\n2\n3\n4 mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
-        }, 
+            "location": "/database/db/postgresql/",
+            "text": "PostgreSQL\n\n\nInstallation\n\n\n\n\nData Types\n\n\n\n\nPostgreSQL Data Types\n\n\n\n\nBoolean\n\n\nCharacter types such as char, varchar, and text.\n\n\nNumeric types such as integer and floating-point number.\n\n\nTemporal types such as date, time, timestamp, and interval\n\n\nUUID for storing Universally Unique Identifiers\n\n\nArray for storing array strings, numbers, etc.\n\n\nJSON stores JSON data\n\n\nhstore stores key-value pair\n\n\nSpecial types such as network address and geometric data.",
+            "title": "PostgreSQL"
+        },
         {
-            "location": "/cms/wordpress/", 
-            "text": "", 
-            "title": "CMS"
-        }, 
+            "location": "/database/db/postgresql/#postgresql",
+            "text": "",
+            "title": "PostgreSQL"
+        },
         {
-            "location": "/devops/aws/", 
-            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\nimport\n \njava.util.LinkedList\n;\n\n\nimport\n \njava.lang.reflect.Array\n;\n\n\n\npublic\n \nclass\n \nUnsortedHashSet\nE\n \n{\n\n\n  \nprivate\n \nstatic\n \nfinal\n \ndouble\n \nLOAD_FACTOR_LIMIT\n \n=\n \n0.7\n;\n\n\n  \nprivate\n \nint\n \nsize\n;\n\n  \nprivate\n \nLinkedList\nE\n[]\n \ncon\n;\n\n\n  \npublic\n \nUnsortedHashSet\n()\n \n{\n\n    \ncon\n  \n=\n \n(\nLinkedList\nE\n[])(\nnew\n \nLinkedList\n[\n10\n]);\n\n  \n}\n\n\n  \npublic\n \nboolean\n \nadd\n(\nE\n \nobj\n)\n \n{\n\n    \nint\n \noldSize\n \n=\n \nsize\n;\n\n    \nint\n \nindex\n \n=\n \nMath\n.\nabs\n(\nobj\n.\nhashCode\n())\n \n%\n \ncon\n.\nlength\n;\n\n    \nif\n \n(\ncon\n[\nindex\n]\n \n==\n \nnull\n)\n\n      \ncon\n[\nindex\n]\n \n=\n \nnew\n \nLinkedList\nE\n();\n\n    \nif\n \n(!\ncon\n[\nindex\n].\ncontains\n(\nobj\n))\n \n{\n\n      \ncon\n[\nindex\n].\nadd\n(\nobj\n);\n\n      \nsize\n++;\n\n    \n}\n\n    \nif\n \n(\n1.0\n \n*\n \nsize\n \n/\n \ncon\n.\nlength\n \n \nLOAD_FACTOR_LIMIT\n)\n\n      \nresize\n();\n\n    \nreturn\n \noldSize\n \n!=\n \nsize\n;\n\n  \n}\n\n\n  \nprivate\n \nvoid\n \nresize\n()\n \n{\n\n    \nUnsortedHashSet\nE\n \ntemp\n \n=\n \nnew\n \nUnsortedHashSet\nE\n();\n\n    \ntemp\n.\ncon\n \n=\n \n(\nLinkedList\nE\n[])(\nnew\n \nLinkedList\n[\ncon\n.\nlength\n \n*\n \n2\n \n+\n \n1\n]);\n\n    \nfor\n \n(\nint\n \ni\n \n=\n \n0\n;\n \ni\n \n \ncon\n.\nlength\n;\n \ni\n++)\n \n{\n\n      \nif\n \n(\ncon\n[\ni\n]\n \n!=\n \nnull\n)\n\n        \nfor\n \n(\nE\n \ne\n \n:\n \ncon\n[\ni\n])\n\n          \ntemp\n.\nadd\n(\ne\n);\n\n    \n}\n\n    \ncon\n \n=\n \ntemp\n.\ncon\n;\n\n  \n}\n\n\n  \npublic\n \nint\n \nsize\n()\n \n{\n\n    \nreturn\n \nsize\n;\n\n  \n}\n\n\n}", 
+            "location": "/database/db/postgresql/#installation",
+            "text": "",
+            "title": "Installation"
+        },
+        {
+            "location": "/database/db/postgresql/#data-types",
+            "text": "PostgreSQL Data Types   Boolean  Character types such as char, varchar, and text.  Numeric types such as integer and floating-point number.  Temporal types such as date, time, timestamp, and interval  UUID for storing Universally Unique Identifiers  Array for storing array strings, numbers, etc.  JSON stores JSON data  hstore stores key-value pair  Special types such as network address and geometric data.",
+            "title": "Data Types"
+        },
+        {
+            "location": "/database/orm/sql-alchemy/",
+            "text": "SQL Alchemy\n\n\nInstallation\n\n\n\n\npip install SQLAlchemy\n\n\nBasic Operations\n\n\n\n\nGet object by id: ``\n\n\nSQLAlchemy Exceptions\n\n\n\n\n\n\nArgumentError\n\n\nCircularDependencyError\n\n\nCompileError\n\n\nConcurrentModificationError\n\n\nDBAPIError\n\n\nDataError\n\n\nDatabaseError\n\n\nDisconnectionError\n\n\nFlushError\n\n\nIdentifierError\n\n\nIntegrityError\n\n\nInterfaceError\n\n\nInternalError\n\n\nInvalidRequestError\n\n\nNoReferenceError\n\n\nNoReferencedColumnError\n\n\nNoReferencedTableError\n\n\nNoSuchColumnError\n\n\nNoSuchTableError\n\n\nNotSupportedError\n\n\nOperationalError\n\n\nProgrammingError\n\n\nSADeprecationWarning\n\n\nSAPendingDeprecationWarning\n\n\nSAWarning\n\n\nSQLAlchemyError\n\n\nSQLError\n\n\nTimeoutError\n\n\nUnboundExecutionError\n\n\nUnmappedColumnError",
+            "title": "SQL Alchemy"
+        },
+        {
+            "location": "/database/orm/sql-alchemy/#sql-alchemy",
+            "text": "",
+            "title": "SQL Alchemy"
+        },
+        {
+            "location": "/database/orm/sql-alchemy/#installation",
+            "text": "pip install SQLAlchemy",
+            "title": "Installation"
+        },
+        {
+            "location": "/database/orm/sql-alchemy/#basic-operations",
+            "text": "Get object by id: ``",
+            "title": "Basic Operations"
+        },
+        {
+            "location": "/database/orm/sql-alchemy/#sqlalchemy-exceptions",
+            "text": "ArgumentError  CircularDependencyError  CompileError  ConcurrentModificationError  DBAPIError  DataError  DatabaseError  DisconnectionError  FlushError  IdentifierError  IntegrityError  InterfaceError  InternalError  InvalidRequestError  NoReferenceError  NoReferencedColumnError  NoReferencedTableError  NoSuchColumnError  NoSuchTableError  NotSupportedError  OperationalError  ProgrammingError  SADeprecationWarning  SAPendingDeprecationWarning  SAWarning  SQLAlchemyError  SQLError  TimeoutError  UnboundExecutionError  UnmappedColumnError",
+            "title": "SQLAlchemy Exceptions"
+        },
+        {
+            "location": "/devops/aws/",
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\nimport\n \njava.util.LinkedList\n;\n\n\nimport\n \njava.lang.reflect.Array\n;\n\n\n\npublic\n \nclass\n \nUnsortedHashSet\n<\nE\n>\n \n{\n\n\n  \nprivate\n \nstatic\n \nfinal\n \ndouble\n \nLOAD_FACTOR_LIMIT\n \n=\n \n0.7\n;\n\n\n  \nprivate\n \nint\n \nsize\n;\n\n  \nprivate\n \nLinkedList\n<\nE\n>[]\n \ncon\n;\n\n\n  \npublic\n \nUnsortedHashSet\n()\n \n{\n\n    \ncon\n  \n=\n \n(\nLinkedList\n<\nE\n>[])(\nnew\n \nLinkedList\n[\n10\n]);\n\n  \n}\n\n\n  \npublic\n \nboolean\n \nadd\n(\nE\n \nobj\n)\n \n{\n\n    \nint\n \noldSize\n \n=\n \nsize\n;\n\n    \nint\n \nindex\n \n=\n \nMath\n.\nabs\n(\nobj\n.\nhashCode\n())\n \n%\n \ncon\n.\nlength\n;\n\n    \nif\n \n(\ncon\n[\nindex\n]\n \n==\n \nnull\n)\n\n      \ncon\n[\nindex\n]\n \n=\n \nnew\n \nLinkedList\n<\nE\n>();\n\n    \nif\n \n(!\ncon\n[\nindex\n].\ncontains\n(\nobj\n))\n \n{\n\n      \ncon\n[\nindex\n].\nadd\n(\nobj\n);\n\n      \nsize\n++;\n\n    \n}\n\n    \nif\n \n(\n1.0\n \n*\n \nsize\n \n/\n \ncon\n.\nlength\n \n>\n \nLOAD_FACTOR_LIMIT\n)\n\n      \nresize\n();\n\n    \nreturn\n \noldSize\n \n!=\n \nsize\n;\n\n  \n}\n\n\n  \nprivate\n \nvoid\n \nresize\n()\n \n{\n\n    \nUnsortedHashSet\n<\nE\n>\n \ntemp\n \n=\n \nnew\n \nUnsortedHashSet\n<\nE\n>();\n\n    \ntemp\n.\ncon\n \n=\n \n(\nLinkedList\n<\nE\n>[])(\nnew\n \nLinkedList\n[\ncon\n.\nlength\n \n*\n \n2\n \n+\n \n1\n]);\n\n    \nfor\n \n(\nint\n \ni\n \n=\n \n0\n;\n \ni\n \n<\n \ncon\n.\nlength\n;\n \ni\n++)\n \n{\n\n      \nif\n \n(\ncon\n[\ni\n]\n \n!=\n \nnull\n)\n\n        \nfor\n \n(\nE\n \ne\n \n:\n \ncon\n[\ni\n])\n\n          \ntemp\n.\nadd\n(\ne\n);\n\n    \n}\n\n    \ncon\n \n=\n \ntemp\n.\ncon\n;\n\n  \n}\n\n\n  \npublic\n \nint\n \nsize\n()\n \n{\n\n    \nreturn\n \nsize\n;\n\n  \n}\n\n\n}",
             "title": "AWS"
-        }, 
+        },
         {
-            "location": "/devops/docker/", 
-            "text": "Docker\n\n\nBasic Commands\n\n\n\n\n\n\ndocker login\n - To login to your DockerHub Account\n\n\ndocker images\n - List all the local Images", 
+            "location": "/devops/docker/",
+            "text": "Docker\n\n\nBasic Commands\n\n\n\n\n\n\ndocker login\n - To login to your DockerHub Account\n\n\ndocker images\n - List all the local Images",
             "title": "Docker"
-        }, 
+        },
         {
-            "location": "/devops/docker/#docker", 
-            "text": "", 
+            "location": "/devops/docker/#docker",
+            "text": "",
             "title": "Docker"
-        }, 
+        },
         {
-            "location": "/devops/docker/#basic-commands", 
-            "text": "docker login  - To login to your DockerHub Account  docker images  - List all the local Images", 
+            "location": "/devops/docker/#basic-commands",
+            "text": "docker login  - To login to your DockerHub Account  docker images  - List all the local Images",
             "title": "Basic Commands"
-        }, 
+        },
         {
-            "location": "/java/java/", 
-            "text": "Java\n\n\npage.title: \"asadasd\"\n\n\nJava Knowledgebase\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nBasics\n\n\n\n\njavc \nfilename.java\n - Compiles the Code\n\n\njava \nfilename\n - Executes the Java File (Do not add .java)\n\n\nDatatypes\n\n\n\n\nProject layout\n\n\n1\n2\n3\n4\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Java"
-        }, 
-        {
-            "location": "/java/java/#java", 
-            "text": "page.title: \"asadasd\"", 
-            "title": "Java"
-        }, 
-        {
-            "location": "/java/java/#java-knowledgebase", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Java Knowledgebase"
-        }, 
-        {
-            "location": "/java/java/#basics", 
-            "text": "javc  filename.java  - Compiles the Code  java  filename  - Executes the Java File (Do not add .java)  Datatypes", 
-            "title": "Basics"
-        }, 
-        {
-            "location": "/java/java/#project-layout", 
-            "text": "1\n2\n3\n4 mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
-        }, 
-        {
-            "location": "/ml/ml-algo/", 
-            "text": "", 
+            "location": "/ml/ml-algo/",
+            "text": "Machine Learning Algorithms\n\n\nTop 10 Algorithms\n\n\n\n\nSupervised Learning\n\n\n\n\n\n\nDecision Trees\n\n\n\n\n\n\nNaive Bayes Classification\n\n\n\n\n\n\nOrdinary Least Squares Regression\n\n\n\n\n\n\nLogistic Regression\n\n\n\n\n\n\nSupport Vector Machines\n\n\n\n\n\n\nEnsemble Methods\n\n\n\n\n\n\nUnsupervised Learning\n\n\n\n\n\n\nClustering Algorithms\n\n\n\n\n\n\nPrincipal Component Analysis\n\n\n\n\n\n\nSingular Value Decomposition\n\n\n\n\n\n\nIndependent Component Analysis",
             "title": "ML Algorithms"
-        }, 
+        },
         {
-            "location": "/ml/pandas/", 
-            "text": "", 
+            "location": "/ml/ml-algo/#machine-learning-algorithms",
+            "text": "",
+            "title": "Machine Learning Algorithms"
+        },
+        {
+            "location": "/ml/ml-algo/#top-10-algorithms",
+            "text": "Supervised Learning    Decision Trees    Naive Bayes Classification    Ordinary Least Squares Regression    Logistic Regression    Support Vector Machines    Ensemble Methods    Unsupervised Learning    Clustering Algorithms    Principal Component Analysis    Singular Value Decomposition    Independent Component Analysis",
+            "title": "Top 10 Algorithms"
+        },
+        {
+            "location": "/ml/pandas/",
+            "text": "Pandas\n\n\nInstallation\n\n\n\n\npip install pandas\n\n\nBasic Commands\n\n\n\n\nImporting Numpy\n\n\nimport\n \npandas\n \nas\n \npd\n\n\nReading CSV files\n\n\ndataFrameName = pd.read_csv('path/to/file.csv', delimiter=',', encoding(?))",
             "title": "Pandas"
-        }, 
+        },
         {
-            "location": "/ml/numpy/", 
-            "text": "", 
+            "location": "/ml/pandas/#pandas",
+            "text": "",
+            "title": "Pandas"
+        },
+        {
+            "location": "/ml/pandas/#installation",
+            "text": "pip install pandas",
+            "title": "Installation"
+        },
+        {
+            "location": "/ml/pandas/#basic-commands",
+            "text": "",
+            "title": "Basic Commands"
+        },
+        {
+            "location": "/ml/pandas/#importing-numpy",
+            "text": "import   pandas   as   pd",
+            "title": "Importing Numpy"
+        },
+        {
+            "location": "/ml/pandas/#reading-csv-files",
+            "text": "dataFrameName = pd.read_csv('path/to/file.csv', delimiter=',', encoding(?))",
+            "title": "Reading CSV files"
+        },
+        {
+            "location": "/ml/numpy/",
+            "text": "Numpy\n\n\nInstallation\n\n\n\n\npip install numpy\n\n\nBasic Commands\n\n\n\n\nImporting Numpy\n\n\nimport\n \nnumpy\n \nas\n \nnp\n\n\nCreating a one-dimensional array\n\n\n\n    my_first_array = np.array([1, 2, 3,4,5])\n    my_first_array\n    array([1, 2, 3, 4, 5])",
             "title": "Numpy"
-        }, 
+        },
         {
-            "location": "/python/flask/", 
-            "text": "", 
+            "location": "/ml/numpy/#numpy",
+            "text": "",
+            "title": "Numpy"
+        },
+        {
+            "location": "/ml/numpy/#installation",
+            "text": "pip install numpy",
+            "title": "Installation"
+        },
+        {
+            "location": "/ml/numpy/#basic-commands",
+            "text": "",
+            "title": "Basic Commands"
+        },
+        {
+            "location": "/ml/numpy/#importing-numpy",
+            "text": "import   numpy   as   np",
+            "title": "Importing Numpy"
+        },
+        {
+            "location": "/ml/numpy/#creating-a-one-dimensional-array",
+            "text": "my_first_array = np.array([1, 2, 3,4,5])\n    my_first_array\n    array([1, 2, 3, 4, 5])",
+            "title": "Creating a one-dimensional array"
+        },
+        {
+            "location": "/python/click/",
+            "text": "Click\n\n\n\n\nInstallation\n\n\npip install click",
+            "title": "Click"
+        },
+        {
+            "location": "/python/click/#click",
+            "text": "",
+            "title": "Click"
+        },
+        {
+            "location": "/python/click/#installation",
+            "text": "pip install click",
+            "title": "Installation"
+        },
+        {
+            "location": "/python/django/",
+            "text": "Django Knowledgebase\n\n\nInstallation\n\n\n\n\npip install django\n\n\nCommands\n\n\n\n\ndjango-admin startproject <project-name>\n - Create a Django project\n\n\npython manage.py runserver\n - Run the Django dev server\n\n\npython manage.py makemigrations\n - Create Migration Scripts\n\n\npython manage.py migrate\n - Migrate Database\n\n\nFile Structure\n\n\n\n\n\n    project-name/                  \u2190 higher level folder\n    |-- project-name/             \u2190 django project folder\n    |    |-- project-name/\n    |    |    |-- \ninit\n.py\n    |    |    |-- settings.py\n    |    |    |-- urls.py\n    |    |    |-- wsgi.py\n    |    +-- manage.py\n\n\n\nFive main files of the base project are as follows:\n\n\nmanage.py - Used to run management commands related to the project [migrations, run server, etc]\n\n\ninit.py - Empty file to indicate Python that this is a package\n\n\nsettings.py - Whole projects configuration file\n\n\nurls.py - Maps all the requests to the routes/paths\n\n\nwsgi.py - Used for deployment\n\n\nA Django project can have multiple apps for different functionalities in it.\n\n\nIn this file tree, we have created an app called \nsampleapp\n\n\n\n\n    project-name/\n    |-- project-name/\n    |    |-- sampleapp/                \n<\n-- our new django app!\n    |    |    |-- migrations/\n    |    |    |    +-- __init__.py\n    |    |    |-- __init__.py\n    |    |    |-- admin.py\n    |    |    |-- apps.py\n    |    |    |-- models.py\n    |    |    |-- tests.py\n    |    |    +-- views.py\n    |    |-- project-name/\n    |    |    |-- __init__.py\n    |    |    |-- settings.py\n    |    |    |-- urls.py\n    |    |    |-- wsgi.py\n    |    +-- manage.py\n\n\n\n\n\nCreating Databse in PostgreSQL\n\n\n\n\n\n\n\ncreatedb -U {{username}} -h localhost --owner={{username}}--lc-ctype='en_US.UTF-8' --lc-collate='en_US.UTF-8' --encoding='UTF8' -e {{db name}};\n\n\n\nCopying Database in PostgreSQL\n\n\n\n\n\nCREATE DATABASE {{new_db}} WITH TEMPLATE {{original_db}} OWNER {{username}};\n\n\n\n\nDropping Database in PostgreSQL\n\n\n\n\n\ndropdb -U {{username}} -h localhost {{db_name}};\n\n\n\n\nAdding Table in PostgreSQL\n\n\n\n\n\nALTER TABLE table_name\nADD COLUMN new_column_name data_type;\n\n\n\n\nCopy Data from one column to another\n\n\n\n\n\nUPDATE {{table_name}} \nSET {{column1}} = {{column2}}\n\n\n\nDropping Table in PostgreSQL\n\n\n\n\n\nDROP TABLE {{table_name}};\n\n\n\n\nDropping Column in PostgreSQL\n\n\n\n\n\nALTER TABLE {{table_name}} \nDROP COLUMN {{column_name}};\n\n\n\n\nImport CSV File Into PosgreSQL Table\n\n\n\n\nExample\n\n\n\nCREATE TABLE persons\n(\n  id serial NOT NULL,\n  first_name character varying(50),\n  last_name character varying(50),\n  dob date,\n  email character varying(255),\n  CONSTRAINT persons_pkey PRIMARY KEY (id)\n)\n\n\n\nChange DB to Postgres\n\n\n\n\nIn your projects setting.py, change the following\n\n\n. . .\n\n\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n\n\n. . .\n\n\n\nto \n\n\n. . .\n\n\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': '{{db name}}',\n        'USER': '{{username}}',\n        'PASSWORD': '{{password}}',\n        'HOST': 'localhost',\n        'PORT': '', # Leave it empty to use default - 5432\n    }\n}\n\n\n. . .\n\n\n\nAfter changing the backend,\n\n\npython manage.py makemigrations\n - Create the migration scripts\n\n\npython manage.py migrate\n - Run the migration scripts\n\n\nCreating Python Virtual Environment\n\n\n\n\npython3 -m venv /path/for/virtual/environment",
+            "title": "Django"
+        },
+        {
+            "location": "/python/django/#django-knowledgebase",
+            "text": "",
+            "title": "Django Knowledgebase"
+        },
+        {
+            "location": "/python/django/#installation",
+            "text": "pip install django",
+            "title": "Installation"
+        },
+        {
+            "location": "/python/django/#commands",
+            "text": "django-admin startproject <project-name>  - Create a Django project  python manage.py runserver  - Run the Django dev server  python manage.py makemigrations  - Create Migration Scripts  python manage.py migrate  - Migrate Database",
+            "title": "Commands"
+        },
+        {
+            "location": "/python/django/#file-structure",
+            "text": "project-name/                  \u2190 higher level folder\n    |-- project-name/             \u2190 django project folder\n    |    |-- project-name/\n    |    |    |--  init .py\n    |    |    |-- settings.py\n    |    |    |-- urls.py\n    |    |    |-- wsgi.py\n    |    +-- manage.py  Five main files of the base project are as follows:  manage.py - Used to run management commands related to the project [migrations, run server, etc]  init.py - Empty file to indicate Python that this is a package  settings.py - Whole projects configuration file  urls.py - Maps all the requests to the routes/paths  wsgi.py - Used for deployment  A Django project can have multiple apps for different functionalities in it.  In this file tree, we have created an app called  sampleapp  \n\n    project-name/\n    |-- project-name/\n    |    |-- sampleapp/                 < -- our new django app!\n    |    |    |-- migrations/\n    |    |    |    +-- __init__.py\n    |    |    |-- __init__.py\n    |    |    |-- admin.py\n    |    |    |-- apps.py\n    |    |    |-- models.py\n    |    |    |-- tests.py\n    |    |    +-- views.py\n    |    |-- project-name/\n    |    |    |-- __init__.py\n    |    |    |-- settings.py\n    |    |    |-- urls.py\n    |    |    |-- wsgi.py\n    |    +-- manage.py",
+            "title": "File Structure"
+        },
+        {
+            "location": "/python/django/#creating-databse-in-postgresql",
+            "text": "createdb -U {{username}} -h localhost --owner={{username}}--lc-ctype='en_US.UTF-8' --lc-collate='en_US.UTF-8' --encoding='UTF8' -e {{db name}};",
+            "title": "Creating Databse in PostgreSQL"
+        },
+        {
+            "location": "/python/django/#copying-database-in-postgresql",
+            "text": "CREATE DATABASE {{new_db}} WITH TEMPLATE {{original_db}} OWNER {{username}};",
+            "title": "Copying Database in PostgreSQL"
+        },
+        {
+            "location": "/python/django/#dropping-database-in-postgresql",
+            "text": "dropdb -U {{username}} -h localhost {{db_name}};",
+            "title": "Dropping Database in PostgreSQL"
+        },
+        {
+            "location": "/python/django/#adding-table-in-postgresql",
+            "text": "ALTER TABLE table_name\nADD COLUMN new_column_name data_type;",
+            "title": "Adding Table in PostgreSQL"
+        },
+        {
+            "location": "/python/django/#copy-data-from-one-column-to-another",
+            "text": "UPDATE {{table_name}} \nSET {{column1}} = {{column2}}",
+            "title": "Copy Data from one column to another"
+        },
+        {
+            "location": "/python/django/#dropping-table-in-postgresql",
+            "text": "DROP TABLE {{table_name}};",
+            "title": "Dropping Table in PostgreSQL"
+        },
+        {
+            "location": "/python/django/#dropping-column-in-postgresql",
+            "text": "ALTER TABLE {{table_name}} \nDROP COLUMN {{column_name}};",
+            "title": "Dropping Column in PostgreSQL"
+        },
+        {
+            "location": "/python/django/#import-csv-file-into-posgresql-table",
+            "text": "Example  CREATE TABLE persons\n(\n  id serial NOT NULL,\n  first_name character varying(50),\n  last_name character varying(50),\n  dob date,\n  email character varying(255),\n  CONSTRAINT persons_pkey PRIMARY KEY (id)\n)",
+            "title": "Import CSV File Into PosgreSQL Table"
+        },
+        {
+            "location": "/python/django/#change-db-to-postgres",
+            "text": "In your projects setting.py, change the following \n. . .  DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}  . . .  to  \n. . .  DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': '{{db name}}',\n        'USER': '{{username}}',\n        'PASSWORD': '{{password}}',\n        'HOST': 'localhost',\n        'PORT': '', # Leave it empty to use default - 5432\n    }\n}  . . .  After changing the backend,  python manage.py makemigrations  - Create the migration scripts  python manage.py migrate  - Run the migration scripts",
+            "title": "Change DB to Postgres"
+        },
+        {
+            "location": "/python/django/#creating-python-virtual-environment",
+            "text": "python3 -m venv /path/for/virtual/environment",
+            "title": "Creating Python Virtual Environment"
+        },
+        {
+            "location": "/python/flask/",
+            "text": "Flask\n\n\nInstallation\n\n\n\n\npip install Flask",
             "title": "Flask"
-        }, 
+        },
         {
-            "location": "/python/python-libraries/", 
-            "text": "", 
+            "location": "/python/flask/#flask",
+            "text": "",
+            "title": "Flask"
+        },
+        {
+            "location": "/python/flask/#installation",
+            "text": "pip install Flask",
+            "title": "Installation"
+        },
+        {
+            "location": "/python/python-libraries/",
+            "text": "Useful Python Libraries\n\n\n\n\n\n\nRequests. The most famous http library written by kenneth reitz. It\u2019s a must have for every python developer.\n\n\n\n\n\n\nScrapy. If you are involved in webscraping then this is a must have library for you. After using this library you won\u2019t use any other.\n\n\n\n\n\n\nwxPython. A gui toolkit for python. I have primarily used it in place of tkinter. You will really love it.\n\n\n\n\n\n\nPillow. A friendly fork of PIL (Python Imaging Library). It is more user friendly than PIL and is a must have for anyone who works with images.\n\n\n\n\n\n\nSQLAlchemy. A database library. Many love it and many hate it. The choice is yours.\n\n\n\n\n\n\nBeautifulSoup. I know it\u2019s slow but this xml and html parsing library is very useful for beginners.\n\n\n\n\n\n\nTwisted. The most important tool for any network application developer. It has a very beautiful api and is used by a lot of famous python developers.\n\n\n\n\n\n\nNumPy. How can we leave this very important library ? It provides some advance math functionalities to python.\n\n\n\n\n\n\nSciPy. When we talk about NumPy then we have to talk about scipy. It is a library of algorithms and mathematical tools for python and has caused many scientists to switch from ruby to python.\n\n\n\n\n\n\nmatplotlib. A numerical plotting library. It is very useful for any data scientist or any data analyzer.\n\n\n\n\n\n\nPygame. Which developer does not like to play games and develop them ? This library will help you achieve your goal of 2d game development.\n\n\n\n\n\n\nPyglet. A 3d animation and game creation engine. This is the engine in which the famous python port of minecraft was made\n\n\n\n\n\n\npyQT. A GUI toolkit for python. It is my second choice after wxpython for developing GUI\u2019s for my python scripts.\n\n\n\n\n\n\npyGtk. Another python GUI library. It is the same library in which the famous Bittorrent client is created.\n\n\n\n\n\n\nScapy. A packet sniffer and analyzer for python made in python.\n\n\n\n\n\n\npywin32. A python library which provides some useful methods and classes for interacting with windows.\n\n\n\n\n\n\nnltk. Natural Language Toolkit \u2013 I realize most people won\u2019t be using this one, but it\u2019s generic enough. It is a very useful library if you want to manipulate strings. But it\u2019s capacity is beyond that. Do check it out.\n\n\n\n\n\n\nnose. A testing framework for python. It is used by millions of python developers. It is a must have if you do test driven development.\n\n\n\n\n\n\nSymPy. SymPy can do algebraic evaluation, differentiation, expansion, complex numbers, etc. It is contained in a pure Python distribution.\n\n\n\n\n\n\nIPython. I just can\u2019t stress enough how useful this tool is. It is a python prompt on steroids. It has completion, history, shell capabilities, and a lot more. Make sure that you take a look at it.",
             "title": "Libraries"
-        }, 
+        },
         {
-            "location": "/python/mkdocs/", 
-            "text": "", 
+            "location": "/python/python-libraries/#useful-python-libraries",
+            "text": "Requests. The most famous http library written by kenneth reitz. It\u2019s a must have for every python developer.    Scrapy. If you are involved in webscraping then this is a must have library for you. After using this library you won\u2019t use any other.    wxPython. A gui toolkit for python. I have primarily used it in place of tkinter. You will really love it.    Pillow. A friendly fork of PIL (Python Imaging Library). It is more user friendly than PIL and is a must have for anyone who works with images.    SQLAlchemy. A database library. Many love it and many hate it. The choice is yours.    BeautifulSoup. I know it\u2019s slow but this xml and html parsing library is very useful for beginners.    Twisted. The most important tool for any network application developer. It has a very beautiful api and is used by a lot of famous python developers.    NumPy. How can we leave this very important library ? It provides some advance math functionalities to python.    SciPy. When we talk about NumPy then we have to talk about scipy. It is a library of algorithms and mathematical tools for python and has caused many scientists to switch from ruby to python.    matplotlib. A numerical plotting library. It is very useful for any data scientist or any data analyzer.    Pygame. Which developer does not like to play games and develop them ? This library will help you achieve your goal of 2d game development.    Pyglet. A 3d animation and game creation engine. This is the engine in which the famous python port of minecraft was made    pyQT. A GUI toolkit for python. It is my second choice after wxpython for developing GUI\u2019s for my python scripts.    pyGtk. Another python GUI library. It is the same library in which the famous Bittorrent client is created.    Scapy. A packet sniffer and analyzer for python made in python.    pywin32. A python library which provides some useful methods and classes for interacting with windows.    nltk. Natural Language Toolkit \u2013 I realize most people won\u2019t be using this one, but it\u2019s generic enough. It is a very useful library if you want to manipulate strings. But it\u2019s capacity is beyond that. Do check it out.    nose. A testing framework for python. It is used by millions of python developers. It is a must have if you do test driven development.    SymPy. SymPy can do algebraic evaluation, differentiation, expansion, complex numbers, etc. It is contained in a pure Python distribution.    IPython. I just can\u2019t stress enough how useful this tool is. It is a python prompt on steroids. It has completion, history, shell capabilities, and a lot more. Make sure that you take a look at it.",
+            "title": "Useful Python Libraries"
+        },
+        {
+            "location": "/python/mkdocs/",
+            "text": "Mkdocs\n\n\nInstallation\n\n\n\n\npip install mkdocs\n\n\nBasic Commands\n\n\n\n\nmkdocs new <project-name>\n - Start a new Mkdocs project\n\n\nmkdocs serve\n - Start Mkdocs development server\n\n\nmkdocs build --clean\n - Build Mkdocs documentation",
             "title": "Mkdocs"
-        }, 
+        },
         {
-            "location": "/python/python/", 
-            "text": "", 
+            "location": "/python/mkdocs/#mkdocs",
+            "text": "",
+            "title": "Mkdocs"
+        },
+        {
+            "location": "/python/mkdocs/#installation",
+            "text": "pip install mkdocs",
+            "title": "Installation"
+        },
+        {
+            "location": "/python/mkdocs/#basic-commands",
+            "text": "mkdocs new <project-name>  - Start a new Mkdocs project  mkdocs serve  - Start Mkdocs development server  mkdocs build --clean  - Build Mkdocs documentation",
+            "title": "Basic Commands"
+        },
+        {
+            "location": "/python/python/",
+            "text": "Python\n\n\nInstallation\n\n\nBasic Commands",
             "title": "Python"
-        }, 
+        },
         {
-            "location": "/ruby/ruby/", 
-            "text": "", 
+            "location": "/python/python/#python",
+            "text": "",
+            "title": "Python"
+        },
+        {
+            "location": "/python/python/#installation",
+            "text": "",
+            "title": "Installation"
+        },
+        {
+            "location": "/python/python/#basic-commands",
+            "text": "",
+            "title": "Basic Commands"
+        },
+        {
+            "location": "/python/python-libraries/",
+            "text": "Useful Python Libraries\n\n\n\n\n\n\nRequests. The most famous http library written by kenneth reitz. It\u2019s a must have for every python developer.\n\n\n\n\n\n\nScrapy. If you are involved in webscraping then this is a must have library for you. After using this library you won\u2019t use any other.\n\n\n\n\n\n\nwxPython. A gui toolkit for python. I have primarily used it in place of tkinter. You will really love it.\n\n\n\n\n\n\nPillow. A friendly fork of PIL (Python Imaging Library). It is more user friendly than PIL and is a must have for anyone who works with images.\n\n\n\n\n\n\nSQLAlchemy. A database library. Many love it and many hate it. The choice is yours.\n\n\n\n\n\n\nBeautifulSoup. I know it\u2019s slow but this xml and html parsing library is very useful for beginners.\n\n\n\n\n\n\nTwisted. The most important tool for any network application developer. It has a very beautiful api and is used by a lot of famous python developers.\n\n\n\n\n\n\nNumPy. How can we leave this very important library ? It provides some advance math functionalities to python.\n\n\n\n\n\n\nSciPy. When we talk about NumPy then we have to talk about scipy. It is a library of algorithms and mathematical tools for python and has caused many scientists to switch from ruby to python.\n\n\n\n\n\n\nmatplotlib. A numerical plotting library. It is very useful for any data scientist or any data analyzer.\n\n\n\n\n\n\nPygame. Which developer does not like to play games and develop them ? This library will help you achieve your goal of 2d game development.\n\n\n\n\n\n\nPyglet. A 3d animation and game creation engine. This is the engine in which the famous python port of minecraft was made\n\n\n\n\n\n\npyQT. A GUI toolkit for python. It is my second choice after wxpython for developing GUI\u2019s for my python scripts.\n\n\n\n\n\n\npyGtk. Another python GUI library. It is the same library in which the famous Bittorrent client is created.\n\n\n\n\n\n\nScapy. A packet sniffer and analyzer for python made in python.\n\n\n\n\n\n\npywin32. A python library which provides some useful methods and classes for interacting with windows.\n\n\n\n\n\n\nnltk. Natural Language Toolkit \u2013 I realize most people won\u2019t be using this one, but it\u2019s generic enough. It is a very useful library if you want to manipulate strings. But it\u2019s capacity is beyond that. Do check it out.\n\n\n\n\n\n\nnose. A testing framework for python. It is used by millions of python developers. It is a must have if you do test driven development.\n\n\n\n\n\n\nSymPy. SymPy can do algebraic evaluation, differentiation, expansion, complex numbers, etc. It is contained in a pure Python distribution.\n\n\n\n\n\n\nIPython. I just can\u2019t stress enough how useful this tool is. It is a python prompt on steroids. It has completion, history, shell capabilities, and a lot more. Make sure that you take a look at it.",
+            "title": "Python Libraries"
+        },
+        {
+            "location": "/python/python-libraries/#useful-python-libraries",
+            "text": "Requests. The most famous http library written by kenneth reitz. It\u2019s a must have for every python developer.    Scrapy. If you are involved in webscraping then this is a must have library for you. After using this library you won\u2019t use any other.    wxPython. A gui toolkit for python. I have primarily used it in place of tkinter. You will really love it.    Pillow. A friendly fork of PIL (Python Imaging Library). It is more user friendly than PIL and is a must have for anyone who works with images.    SQLAlchemy. A database library. Many love it and many hate it. The choice is yours.    BeautifulSoup. I know it\u2019s slow but this xml and html parsing library is very useful for beginners.    Twisted. The most important tool for any network application developer. It has a very beautiful api and is used by a lot of famous python developers.    NumPy. How can we leave this very important library ? It provides some advance math functionalities to python.    SciPy. When we talk about NumPy then we have to talk about scipy. It is a library of algorithms and mathematical tools for python and has caused many scientists to switch from ruby to python.    matplotlib. A numerical plotting library. It is very useful for any data scientist or any data analyzer.    Pygame. Which developer does not like to play games and develop them ? This library will help you achieve your goal of 2d game development.    Pyglet. A 3d animation and game creation engine. This is the engine in which the famous python port of minecraft was made    pyQT. A GUI toolkit for python. It is my second choice after wxpython for developing GUI\u2019s for my python scripts.    pyGtk. Another python GUI library. It is the same library in which the famous Bittorrent client is created.    Scapy. A packet sniffer and analyzer for python made in python.    pywin32. A python library which provides some useful methods and classes for interacting with windows.    nltk. Natural Language Toolkit \u2013 I realize most people won\u2019t be using this one, but it\u2019s generic enough. It is a very useful library if you want to manipulate strings. But it\u2019s capacity is beyond that. Do check it out.    nose. A testing framework for python. It is used by millions of python developers. It is a must have if you do test driven development.    SymPy. SymPy can do algebraic evaluation, differentiation, expansion, complex numbers, etc. It is contained in a pure Python distribution.    IPython. I just can\u2019t stress enough how useful this tool is. It is a python prompt on steroids. It has completion, history, shell capabilities, and a lot more. Make sure that you take a look at it.",
+            "title": "Useful Python Libraries"
+        },
+        {
+            "location": "/ruby/ruby/",
+            "text": "Ruby\n\n\nInstallation\n\n\n\n\nBasic Commands",
             "title": "Ruby"
-        }, 
+        },
         {
-            "location": "/ruby/dashing/", 
-            "text": "", 
+            "location": "/ruby/ruby/#ruby",
+            "text": "",
+            "title": "Ruby"
+        },
+        {
+            "location": "/ruby/ruby/#installation",
+            "text": "",
+            "title": "Installation"
+        },
+        {
+            "location": "/ruby/ruby/#basic-commands",
+            "text": "",
+            "title": "Basic Commands"
+        },
+        {
+            "location": "/ruby/dashing/",
+            "text": "Smashing\n\n\nInstallation\n\n\n\n\ngem install smashing\n\n\ngem install bundler\n\n\nYour first Dashboard\n\n\n\n\n    # Install bundler\n    $ gem install bundler\n\n    # Install smashing\n    $ gem install smashing\n\n    # Create a new project\n    $ smashing new my-project\n\n    # Change Directory into the project\n    $ cd my-project\n\n    # Install the bundle of project specific gems\n    $ bundle\n\n    # Start the example dashboard!\n    $ smashing start",
             "title": "Dashing"
+        },
+        {
+            "location": "/ruby/dashing/#smashing",
+            "text": "",
+            "title": "Smashing"
+        },
+        {
+            "location": "/ruby/dashing/#installation",
+            "text": "gem install smashing  gem install bundler",
+            "title": "Installation"
+        },
+        {
+            "location": "/ruby/dashing/#your-first-dashboard",
+            "text": "# Install bundler\n    $ gem install bundler\n\n    # Install smashing\n    $ gem install smashing\n\n    # Create a new project\n    $ smashing new my-project\n\n    # Change Directory into the project\n    $ cd my-project\n\n    # Install the bundle of project specific gems\n    $ bundle\n\n    # Start the example dashboard!\n    $ smashing start",
+            "title": "Your first Dashboard"
+        },
+        {
+            "location": "/version-control/git/",
+            "text": "Git\n\n\nBasic Commands\n\n\n\n\ngit init\n - asd\n\n\ngit add <filename>\n - \n\n\ngit add .\n -\n\n\ngit status\n - \n\n\ngit commit -m \"<Commit Message>\"\n - \n\n\ngit push\n - \n\n\ngit fetch\n -\n\n\ngit branch\n -\n\n\ngit checkout\n -\n\n\ngit checkout -b\n -\n\n\ngit branch -a\n - List all the local branches\n\n\ngit branch -r\n - List all the remote branches\n\n\ngit branch -d <branch-name>\n - Delete a local branch. The \n-d\n option is an alias for \n--delete\n, which only deletes the branch if it has already been fully merged in its upstream branch\n\n\ngit branch -D <branch-name>\n - Use \n-D\n, which is an alias for \n--delete --force\n, which deletes the branch \n\"irrespective of its merged status.\"\n\n\ngit push --delete <remote_name> <branch_name>\n - Delete a remote branch\n\n\ngit commit --amend\n - Amend/Edit local commit messages\n\n\ngit remote -v\n - \n\n\ngit remote --add\n -",
+            "title": "Git"
+        },
+        {
+            "location": "/version-control/git/#git",
+            "text": "",
+            "title": "Git"
+        },
+        {
+            "location": "/version-control/git/#basic-commands",
+            "text": "git init  - asd  git add <filename>  -   git add .  -  git status  -   git commit -m \"<Commit Message>\"  -   git push  -   git fetch  -  git branch  -  git checkout  -  git checkout -b  -  git branch -a  - List all the local branches  git branch -r  - List all the remote branches  git branch -d <branch-name>  - Delete a local branch. The  -d  option is an alias for  --delete , which only deletes the branch if it has already been fully merged in its upstream branch  git branch -D <branch-name>  - Use  -D , which is an alias for  --delete --force , which deletes the branch  \"irrespective of its merged status.\"  git push --delete <remote_name> <branch_name>  - Delete a remote branch  git commit --amend  - Amend/Edit local commit messages  git remote -v  -   git remote --add  -",
+            "title": "Basic Commands"
         }
     ]
 }

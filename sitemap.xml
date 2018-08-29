@@ -1,112 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
      <loc>/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/cms/wordpress/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <loc>/database/orm/django-orm/</loc>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
+    <url>
+     <loc>/database/db/postgresql/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/database/orm/sql-alchemy/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     <url>
      <loc>/devops/aws/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>/devops/docker/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>/java/java/</loc>
-     <lastmod>2018-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
     <url>
      <loc>/ml/ml-algo/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>/ml/pandas/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>/ml/numpy/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
+    <url>
+     <loc>/python/click/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/python/django/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     <url>
      <loc>/python/flask/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>/python/python-libraries/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>/python/mkdocs/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>/python/python/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
+    <url>
+     <loc>/python/python-libraries/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     <url>
      <loc>/ruby/ruby/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>/ruby/dashing/</loc>
-     <lastmod>2018-04-16</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
+    <url>
+     <loc>/version-control/git/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>

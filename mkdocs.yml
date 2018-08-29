@@ -22,7 +22,7 @@ theme:
     'tabs': false
   icon: 'code'
 #  custom_dir: 'theme'
-
+  # site_dir: ''
 
 # Repo Details
 repo_url: "https://github.com/backtrackbaba/knowledgebase"
