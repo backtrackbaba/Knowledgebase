@@ -43,6 +43,8 @@ extra:
       link: 'https://saiprasad.io'
     - type: 'server'
       link: 'https://stackoverflow.com/users/8044551/saiprasad-balasubramanian'
+  feature:
+    tabs: true
 # Markdown Extensions
 
 markdown_extensions:
@@ -67,21 +69,28 @@ google_analytics:
   - 'UA-XXXXXXXX-X'
   - 'auto'
 
-
+dev_addr: '127.0.0.1:8080'
 # Site Navigation
 
 pages:
 
 - Home: 'index.md'
 
-- CMS: 'cms/wordpress.md'
+# - CMS: 'cms/wordpress.md'
+
+- Database:
+    - 'Django ORM': 'database/orm/django-orm.md'
+    - 'PostgreSQL': 'database/db/postgresql.md'
+    - 'SQL Alchemy': 'database/orm/sql-alchemy.md'
+    
+    
 
 - devOps:
     - 'AWS': 'devops/aws.md'
     - 'Docker': 'devops/docker.md'
 
-- Java:
-    - 'Java': 'java/java.md'
+# - Java:
+#     - 'Java': 'java/java.md'
 
 - Machine Learning:
     - 'ML Algorithms': 'ml/ml-algo.md'
@@ -89,11 +98,19 @@ pages:
     - 'Numpy': 'ml/numpy.md'
 
 - Python:
+  - 'Click': 'python/click.md'
+  - 'Django': 'python/django.md'
   - 'Flask': 'python/flask.md' 
   - 'Libraries': 'python/python-libraries.md'
   - 'Mkdocs': 'python/mkdocs.md'
   - 'Python': 'python/python.md'
+  - 'Python Libraries': 'python/python-libraries.md'
 
 - Ruby:
     - 'Ruby': 'ruby/ruby.md'
     - 'Dashing': 'ruby/dashing.md'
+
+- Version Control:
+    - 'Git': 'version-control/git.md'
+
+
