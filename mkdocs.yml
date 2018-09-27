@@ -79,12 +79,13 @@ pages:
 # - CMS: 'cms/wordpress.md'
 
 - Database:
-    - 'Django ORM': 'database/orm/django-orm.md'
-    - 'PostgreSQL': 'database/db/postgresql.md'
-    - 'SQL Alchemy': 'database/orm/sql-alchemy.md'
-    
-    
+    - ORM:
+      - 'Django ORM': 'database/orm/django-orm.md'
+      - 'SQL Alchemy': 'database/orm/sql-alchemy.md'
 
+    - 'PostgreSQL': 'database/db/postgresql.md'
+    
+    
 - devOps:
     - 'AWS': 'devops/aws.md'
     - 'Docker': 'devops/docker.md'
@@ -92,12 +93,19 @@ pages:
 # - Java:
 #     - 'Java': 'java/java.md'
 
+- Linux:
+    - Utilities:  
+      - 'Screen': 'linux/utilities/screen.md'
+
 - Machine Learning:
     - 'ML Algorithms': 'ml/ml-algo.md'
     - 'Pandas': 'ml/pandas.md'
     - 'Numpy': 'ml/numpy.md'
 
 - Python:
+  - Libraries:
+    - 'OS': 'python/Libraries/os.md'
+    - 'Requests': 'python/libraries/requests.md'
   - 'Click': 'python/click.md'
   - 'Django': 'python/django.md'
   - 'Flask': 'python/flask.md' 
