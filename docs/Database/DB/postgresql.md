@@ -18,3 +18,7 @@ PostgreSQL Data Types
 7. JSON stores JSON data
 8. hstore stores key-value pair
 9. Special types such as network address and geometric data.
+
+## Snippets
+---
+### List all databases for a user

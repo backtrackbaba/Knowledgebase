@@ -6,6 +6,7 @@ site_description: "Site Description Here"
 #site_url: 'https://saiprasad.io'
 edit_uri: ''
 copyright: "© Saiprasad Balasubramanian"
+site_dir: 'build/'
 
 # Theme 
 
@@ -72,11 +73,13 @@ google_analytics:
 dev_addr: '127.0.0.1:8080'
 # Site Navigation
 
-pages:
+nav:
 
 - Home: 'index.md'
 
-# - CMS: 'cms/wordpress.md'
+- CMS: 
+    - WordPress: 'cms/wordpress.md'
+    - Ghost: 'cms/ghost.md'
 
 - Database:
     - ORM:
@@ -104,11 +107,12 @@ pages:
 
 - Python:
   - Libraries:
-    - 'OS': 'python/Libraries/os.md'
+    - 'OS': 'python/libraries/os.md'
     - 'Requests': 'python/libraries/requests.md'
   - 'Click': 'python/click.md'
   - 'Django': 'python/django.md'
   - 'Flask': 'python/flask.md' 
+  - 'Jupyter': 'python/jupyter.md'
   - 'Libraries': 'python/python-libraries.md'
   - 'Mkdocs': 'python/mkdocs.md'
   - 'Python': 'python/python.md'
