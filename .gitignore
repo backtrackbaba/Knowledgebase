@@ -1,3 +1,8 @@
+# Custom files
+.netlify
+.idea
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -101,3 +106,5 @@ ENV/
 .mypy_cache/
 
 .DS_Store
+# Local Netlify folder
+.netlify
