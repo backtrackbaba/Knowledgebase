@@ -22,7 +22,7 @@ theme:
   feature:
     'tabs': false
   icon: 'code'
-#  custom_dir: 'theme'
+  #  custom_dir: 'theme'
   # site_dir: ''
 
 # Repo Details
@@ -75,54 +75,55 @@ dev_addr: '127.0.0.1:8080'
 
 nav:
 
-- Home: 'index.md'
+  - Home: 'index.md'
 
-- CMS: 
-    - WordPress: 'cms/wordpress.md'
-    - Ghost: 'cms/ghost.md'
+  - CMS:
+      - WordPress: 'cms/wordpress.md'
+      - Ghost: 'cms/ghost.md'
 
-- Database:
-    - ORM:
-      - 'Django ORM': 'database/orm/django-orm.md'
-      - 'SQL Alchemy': 'database/orm/sql-alchemy.md'
+  - Database:
+      - ORM:
+          - 'Django ORM': 'database/orm/django-orm.md'
+          - 'SQL Alchemy': 'database/orm/sql-alchemy.md'
 
-    - 'PostgreSQL': 'database/db/postgresql.md'
-    
-    
-- devOps:
-    - 'AWS': 'devops/aws.md'
-    - 'Docker': 'devops/docker.md'
+      - 'PostgreSQL': 'database/db/postgresql.md'
 
-# - Java:
-#     - 'Java': 'java/java.md'
+  - devOps:
+      - Nginx:
+          - 'Intro': 'devops/nginx/intro.md'
+      - 'AWS': 'devops/aws.md'
+      - 'Docker': 'devops/docker.md'
 
-- Linux:
-    - Utilities:  
-      - 'Screen': 'linux/utilities/screen.md'
+  # - Java:
+  #     - 'Java': 'java/java.md'
 
-- Machine Learning:
-    - 'ML Algorithms': 'ml/ml-algo.md'
-    - 'Pandas': 'ml/pandas.md'
-    - 'Numpy': 'ml/numpy.md'
+  - Linux:
+      - Utilities:
+          - 'Screen': 'linux/utilities/screen.md'
 
-- Python:
-  - Libraries:
-    - 'OS': 'python/libraries/os.md'
-    - 'Requests': 'python/libraries/requests.md'
-  - 'Click': 'python/click.md'
-  - 'Django': 'python/django.md'
-  - 'Flask': 'python/flask.md' 
-  - 'Jupyter': 'python/jupyter.md'
-  - 'Libraries': 'python/python-libraries.md'
-  - 'Mkdocs': 'python/mkdocs.md'
-  - 'Python': 'python/python.md'
-  - 'Python Libraries': 'python/python-libraries.md'
+  - Machine Learning:
+      - 'ML Algorithms': 'ml/ml-algo.md'
+      - 'Pandas': 'ml/pandas.md'
+      - 'Numpy': 'ml/numpy.md'
 
-- Ruby:
-    - 'Ruby': 'ruby/ruby.md'
-    - 'Dashing': 'ruby/dashing.md'
+  - Python:
+      - Libraries:
+          - 'OS': 'python/libraries/os.md'
+          - 'Requests': 'python/libraries/requests.md'
+      - 'Click': 'python/click.md'
+      - 'Django': 'python/django.md'
+      - 'Flask': 'python/flask.md'
+      - 'Jupyter': 'python/jupyter.md'
+      - 'Libraries': 'python/python-libraries.md'
+      - 'Mkdocs': 'python/mkdocs.md'
+      - 'Python': 'python/python.md'
+      - 'Python Libraries': 'python/python-libraries.md'
 
-- Version Control:
-    - 'Git': 'version-control/git.md'
+  - Ruby:
+      - 'Ruby': 'ruby/ruby.md'
+      - 'Dashing': 'ruby/dashing.md'
+
+  - Version Control:
+      - 'Git': 'version-control/git.md'
 
 
