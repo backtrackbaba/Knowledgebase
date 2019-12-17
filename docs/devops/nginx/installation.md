@@ -1,7 +1,7 @@
 # Nginx Installation
 
+## Installing Nginx
 
-##  Installing Nginx
 `sudo apt update`
 
 `sudo apt install nginx`

@@ -87,9 +87,12 @@ nav:
       - "PostgreSQL": "database/db/postgresql.md"
 
   - devOps:
+      - AWS:
+          - "EC2": "devops/aws/ec2.md"
+          - "Route53": "devops/aws/route53.md"
       - Nginx:
           - "Intro": "devops/nginx/intro.md"
-      - "AWS": "devops/aws.md"
+          - "Docker": "devops/nginx/docker.md"
       - "Docker": "devops/docker.md"
 
   # - Java:
@@ -104,6 +107,9 @@ nav:
       - "ML Algorithms": "ml/ml-algo.md"
       - "Pandas": "ml/pandas.md"
       - "Numpy": "ml/numpy.md"
+
+  - Protocol Buffers:
+      - "Protobuf": "protocol-buffers/protobuf.md"
 
   - Python:
       - Libraries:
@@ -121,6 +127,9 @@ nav:
   - Ruby:
       - "Ruby": "ruby/ruby.md"
       - "Dashing": "ruby/dashing.md"
+
+  - Testing:
+      - "Postman": "testing/postman.md"
 
   - Version Control:
       - "Git": "version-control/git.md"
