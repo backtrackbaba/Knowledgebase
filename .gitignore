@@ -106,5 +106,7 @@ ENV/
 .mypy_cache/
 
 .DS_Store
+.history/
+
 # Local Netlify folder
 .netlify
