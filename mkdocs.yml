@@ -4,24 +4,24 @@ site_name: "Knowledgebase Repository"
 site_author: "Saiprasad Balasubramanian"
 site_description: "Site Description Here"
 #site_url: 'https://saiprasad.io'
-edit_uri: ''
+edit_uri: ""
 copyright: "© Saiprasad Balasubramanian"
-site_dir: 'build/'
+site_dir: "build/"
 
-# Theme 
+# Theme
 
 theme:
   name: material
-  language: 'en'
+  language: "en"
   font:
-    text: 'Ubuntu'
-    code: 'Ubuntu Mono'
+    text: "Ubuntu"
+    code: "Ubuntu Mono"
   palette:
-    primary: 'blue'
-    accent: 'indigo'
+    primary: "blue"
+    accent: "indigo"
   feature:
-    'tabs': false
-  icon: 'code'
+    "tabs": false
+  icon: "code"
   #  custom_dir: 'theme'
   # site_dir: ''
 
@@ -32,18 +32,18 @@ repo_url: "https://github.com/backtrackbaba/knowledgebase"
 
 extra:
   social:
-    - type: 'github'
-      link: 'https://github.com/backtrackbaba'
-    - type: 'twitter'
-      link: 'https://twitter.com/sai_cosmo'
-    - type: 'linkedin'
-      link: 'https://linkedin.com/in/saiprasadbala'
-    - type: 'facebook'
-      link: 'https://facebook.com/sai.cosmo'
-    - type: 'terminal'
-      link: 'https://saiprasad.io'
-    - type: 'server'
-      link: 'https://stackoverflow.com/users/8044551/saiprasad-balasubramanian'
+    - type: "github"
+      link: "https://github.com/backtrackbaba"
+    - type: "twitter"
+      link: "https://twitter.com/sai_cosmo"
+    - type: "linkedin"
+      link: "https://linkedin.com/in/saiprasadbala"
+    - type: "facebook"
+      link: "https://facebook.com/sai.cosmo"
+    - type: "terminal"
+      link: "https://saiprasad.io"
+    - type: "server"
+      link: "https://stackoverflow.com/users/8044551/saiprasad-balasubramanian"
   feature:
     tabs: true
 # Markdown Extensions
@@ -51,79 +51,76 @@ extra:
 markdown_extensions:
   - admonition
   - codehilite:
-      'linenums': 'true'
-      'pygments_style': 'xcode'
+      "linenums": "true"
+      "pygments_style": "xcode"
   - pymdownx.emoji:
-      'emoji_generator': !!python/name:pymdownx.emoji.to_svg
+      "emoji_generator": !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tasklist:
-      'custom_checkbox': true
+      "custom_checkbox": true
   - meta
-
 
 # Google Analytics
 
 google_analytics:
-  - 'UA-XXXXXXXX-X'
-  - 'auto'
+  - "UA-XXXXXXXX-X"
+  - "auto"
 
-dev_addr: '127.0.0.1:8080'
+dev_addr: "127.0.0.1:8080"
 # Site Navigation
 
 nav:
-
-  - Home: 'index.md'
+  - Home: "index.md"
 
   - CMS:
-      - WordPress: 'cms/wordpress.md'
-      - Ghost: 'cms/ghost.md'
+      - WordPress: "cms/wordpress.md"
+      - Ghost: "cms/ghost.md"
 
   - Database:
       - ORM:
-          - 'Django ORM': 'database/orm/django-orm.md'
-          - 'SQL Alchemy': 'database/orm/sql-alchemy.md'
+          - "Django ORM": "database/orm/django-orm.md"
+          - "SQL Alchemy": "database/orm/sql-alchemy.md"
 
-      - 'PostgreSQL': 'database/db/postgresql.md'
+      - "PostgreSQL": "database/db/postgresql.md"
 
   - devOps:
       - Nginx:
-          - 'Intro': 'devops/nginx/intro.md'
-      - 'AWS': 'devops/aws.md'
-      - 'Docker': 'devops/docker.md'
+          - "Intro": "devops/nginx/intro.md"
+      - "AWS": "devops/aws.md"
+      - "Docker": "devops/docker.md"
 
   # - Java:
   #     - 'Java': 'java/java.md'
 
   - Linux:
       - Utilities:
-          - 'Screen': 'linux/utilities/screen.md'
+          - "Screen": "linux/utilities/screen.md"
+          - "SSH": "linux/utilities/ssh.md"
 
   - Machine Learning:
-      - 'ML Algorithms': 'ml/ml-algo.md'
-      - 'Pandas': 'ml/pandas.md'
-      - 'Numpy': 'ml/numpy.md'
+      - "ML Algorithms": "ml/ml-algo.md"
+      - "Pandas": "ml/pandas.md"
+      - "Numpy": "ml/numpy.md"
 
   - Python:
       - Libraries:
-          - 'OS': 'python/libraries/os.md'
-          - 'Requests': 'python/libraries/requests.md'
-      - 'Click': 'python/click.md'
-      - 'Django': 'python/django.md'
-      - 'Flask': 'python/flask.md'
-      - 'Jupyter': 'python/jupyter.md'
-      - 'Libraries': 'python/python-libraries.md'
-      - 'Mkdocs': 'python/mkdocs.md'
-      - 'Python': 'python/python.md'
-      - 'Python Libraries': 'python/python-libraries.md'
+          - "OS": "python/libraries/os.md"
+          - "Requests": "python/libraries/requests.md"
+      - "Click": "python/click.md"
+      - "Django": "python/django.md"
+      - "Flask": "python/flask.md"
+      - "Jupyter": "python/jupyter.md"
+      - "Libraries": "python/python-libraries.md"
+      - "Mkdocs": "python/mkdocs.md"
+      - "Python": "python/python.md"
+      - "Python Libraries": "python/python-libraries.md"
 
   - Ruby:
-      - 'Ruby': 'ruby/ruby.md'
-      - 'Dashing': 'ruby/dashing.md'
+      - "Ruby": "ruby/ruby.md"
+      - "Dashing": "ruby/dashing.md"
 
   - Version Control:
-      - 'Git': 'version-control/git.md'
-
-
+      - "Git": "version-control/git.md"

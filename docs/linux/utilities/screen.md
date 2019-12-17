@@ -1,4 +1,4 @@
-# Screen 
+# Screen
 
 Screen is a console application that allows you to use multiple terminal sessions within one window. The program operates within a shell session and acts as a container and manager for other terminal sessions, similar to how a window manager manages windows.
 
@@ -21,9 +21,6 @@ sudo apt-get install screen
 
 `screen -XS [session # you want to quit] quit` - Kil / Stop the screen
 
-`screen -r [session # you want to attach to]`
+`screen -r [session # you want to attach to]` - Attach to a particular screen
 
-
-
-
-
+`(ctrl + a) (ctrl + d)` OR `screen -dr` - Detach from screen
