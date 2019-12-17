@@ -79,6 +79,19 @@ nav:
       - WordPress: "cms/wordpress.md"
       - Ghost: "cms/ghost.md"
 
+  - Coding:
+      - "Editors":
+          - Nano: "coding/editors/nano.md"
+          - Sublime: "coding/editors/sublime.md"
+          - VIM: "coding/editors/vim.md"
+          - VSCode: "coding/editors/vscode.md"
+      - "IDE's":
+          - Pycharm: "coding/ide/pycharm.md"
+      - "Linters":
+          - ESLint: "coding/linters/eslint.md"
+          - Flake8: "coding/linters/flake8.md"
+          - Pylint: "coding/linters/pylint.md"
+
   - Database:
       - ORM:
           - "Django ORM": "database/orm/django-orm.md"
@@ -90,13 +103,13 @@ nav:
       - AWS:
           - "EC2": "devops/aws/ec2.md"
           - "Route53": "devops/aws/route53.md"
+      - "Docker":
+          - Intro: "devops/docker.md"
+          - SDK:
+              - Python: "devops/docker/sdk/python.md"
       - Nginx:
           - "Intro": "devops/nginx/intro.md"
           - "Docker": "devops/nginx/docker.md"
-      - "Docker": "devops/docker.md"
-
-  # - Java:
-  #     - 'Java': 'java/java.md'
 
   - Linux:
       - Utilities:
