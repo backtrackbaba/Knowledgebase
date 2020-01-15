@@ -98,6 +98,7 @@ nav:
           - "SQL Alchemy": "database/orm/sql-alchemy.md"
 
       - "PostgreSQL": "database/db/postgresql.md"
+      - "Redis": "database/db/redis.md"
 
   - devOps:
       - AWS:
@@ -108,13 +109,16 @@ nav:
           - SDK:
               - Python: "devops/docker/sdk/python.md"
       - Nginx:
-          - "Intro": "devops/nginx/intro.md"
+          - "Installation": "devops/nginx/installation.md"
           - "Docker": "devops/nginx/docker.md"
 
   - Linux:
       - Utilities:
           - "Screen": "linux/utilities/screen.md"
           - "SSH": "linux/utilities/ssh.md"
+          - "UFW": "linux/utilities/ufw.md"
+          - "User Management": "linux/utilities/user-management.md"
+          - "Zip": "linux/utilities/zip.md"
 
   - Machine Learning:
       - "ML Algorithms": "ml/ml-algo.md"
@@ -127,7 +131,9 @@ nav:
   - Python:
       - Libraries:
           - "OS": "python/libraries/os.md"
+          - "Redis": "python/libraries/redis.md"
           - "Requests": "python/libraries/requests.md"
+          - "Signal": "python/libraries/signal.md"
       - "Click": "python/click.md"
       - "Django": "python/django.md"
       - "Flask": "python/flask.md"
